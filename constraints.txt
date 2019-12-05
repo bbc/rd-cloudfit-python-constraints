@@ -1,1 +1,3 @@
 # A constraints file for cloudfit services
+
+aiobotocore[boto3]~=0.10.2  # workaround for botocore dependency issue
