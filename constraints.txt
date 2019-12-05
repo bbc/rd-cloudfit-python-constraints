@@ -1,7 +1,13 @@
 # A constraints file for cloudfit services
 
-# Requirements due to aioboto3~=6.4.1
-aioboto3~=6.4.1
-aiobotocore[boto3]~=0.10.2
+# Requirements due to aioboto3==6.4.1
+aioboto3==6.4.1
+aiobotocore[boto3]==0.10.2
 botocore>=1.12.91,<1.12.92
-boto3==1.10.14
+boto3==1.9.91
+
+# Requirements due to nmos-common==0.19.18
+nmos-common==0.19.18
+python-dateutil>=2.4.2,<2.8.1
+oauthlib<3.0.0
+requests-oauthlib<1.2.0
