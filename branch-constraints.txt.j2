@@ -1,0 +1,52 @@
+# This file is a constraints file which makes the system use only cloudfit libraries from the {{ branch }} branch
+
+# libraries
+
+{{ '# ' if project=="mediatimestamp" else '' }}mediatimestamp {{ '>= 0.0.0' if branch=='master' else '>= 0.0.0.dev0'}}
+{{ '# ' if project=="mediagrains" else '' }}mediagrains {{ '>= 0.0.0' if branch=='master' else '>= 0.0.0.dev0'}}
+{{ '# ' if project=="ramltools" else '' }}ramltools {{ '>= 0.0.0' if branch=='master' else '>= 0.0.0.dev0'}}
+{{ '# ' if project=="qamltools" else '' }}qamltools {{ '>= 0.0.0' if branch=='master' else '>= 0.0.0.dev0'}}
+{{ '# ' if project=="mediajson" else '' }}mediajson {{ '>= 0.0.0' if branch=='master' else '>= 0.0.0.dev0'}}
+{{ '# ' if project=="pyqaml" else '' }}pyqaml {{ '>= 0.0.0' if branch=='master' else '>= 0.0.0.dev0'}}
+{{ '# ' if project=="mediaapi" else '' }}mediaapi {{ '>= 0.0.0' if branch=='master' else '>= 0.0.0.dev0'}}
+{{ '# ' if project=="cloudfitmediamodels" else '' }}cloudfitmediamodels {{ '>= 0.0.0' if branch=='master' else '>= 0.0.0.dev0'}}
+{{ '# ' if project=="cloudfit_fixtures" else '' }}cloudfit_fixtures {{ '>= 0.0.0' if branch=='master' else '>= 0.0.0.dev0'}}
+{{ '# ' if project=="cloudagnostic" else '' }}cloudagnostic {{ '>= 0.0.0' if branch=='master' else '>= 0.0.0.dev0'}}
+
+# Squirrel
+
+{{ '# ' if project=="squirrel" else '' }}squirrelclient {{ '>= 0.0.0' if branch=='master' else '>= 0.0.0.dev0'}}
+{{ '# ' if project=="squirrel" else '' }}squirrel_common {{ '>= 0.0.0' if branch=='master' else '>= 0.0.0.dev0'}}
+{{ '# ' if project=="squirrel" else '' }}
+{{ '# ' if project=="squirrel" else '' }}squirrel_fixtures < 0.0.0
+{{ '# ' if project=="squirrel" else '' }}squirrel_flowdeleter < 0.0.0
+{{ '# ' if project=="squirrel" else '' }}squirrel_serviceapi < 0.0.0
+
+# Magpie
+
+{{ '# ' if project=="magpie" else '' }}magpieingest_client {{ '>= 0.0.0' if branch=='master' else '>= 0.0.0.dev0'}}
+{{ '# ' if project=="magpie" else '' }}magpieingest_common {{ '>= 0.0.0' if branch=='master' else '>= 0.0.0.dev0'}}
+{{ '# ' if project=="magpie" else '' }}
+{{ '# ' if project=="magpie" else '' }}magpieingest_analyser < 0.0.0
+{{ '# ' if project=="magpie" else '' }}magpieingest_chunker < 0.0.0
+{{ '# ' if project=="magpie" else '' }}magpieingest_fixtures < 0.0.0
+{{ '# ' if project=="magpie" else '' }}magpieingest_reader < 0.0.0
+{{ '# ' if project=="magpie" else '' }}magpieingest_serviceapi < 0.0.0
+
+# Otter
+
+{{ '# ' if project=="otter" else '' }}otterpackaging_common < 0.0.0
+{{ '# ' if project=="otter" else '' }}otterpackaging_fixtures < 0.0.0
+{{ '# ' if project=="otter" else '' }}otterpackaging_playoutsupervisor < 0.0.0
+{{ '# ' if project=="otter" else '' }}otterpackaging_serviceapi < 0.0.0
+
+# Weasel
+
+{{ '# ' if project=="weasel" else '' }}weaselframework_common < 0.0.0
+
+# Bobcat
+
+bobcatpackaging_common < 0.0.0
+bobcatpackaging_fixtures < 0.0.0
+bobcatpackaging_packager < 0.0.0
+bobcatpackaging_serviceapi < 0.0.0
