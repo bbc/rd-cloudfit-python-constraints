@@ -24,3 +24,6 @@ nmos-common==0.19.18
 python-dateutil>=2.4.2,<2.8.1
 oauthlib<3.0.0
 requests-oauthlib<1.2.0
+
+# Requirements due to av<7.0.0
+av<7.0.0
