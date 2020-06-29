@@ -9,6 +9,7 @@ botocore>=1.12.252,<1.12.253
 boto3==1.9.252
 
 # Requirements due to botocore>=1.12.252,<1.12.253
+watchtower>=0.7.3,<0.8.0
 jmespath>=0.7.1,<1.0.0
 docutils>=0.10,<0.16
 urllib3>=1.20,<1.26
