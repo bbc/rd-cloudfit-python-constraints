@@ -23,6 +23,3 @@ s3transfer>=0.3.0,<0.4.0
 # Requirements due to sanic
 httpx==0.9.3
 sanic==19.12.2
-
-# Requirements due to gevent 1.5 not working with Python < 3.7
-gevent<=1.4.0
