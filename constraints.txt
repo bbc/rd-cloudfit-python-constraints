@@ -20,12 +20,6 @@ urllib3>=1.20,<1.26
 # jmespath>=0.7.1,<1.0.0  # Superseded by identical requirement elsewhere
 s3transfer>=0.3.0,<0.4.0
 
-# Requirements due to nmos-common==0.19.18
-nmos-common==0.19.18
-python-dateutil>=2.4.2,<2.8.1
-oauthlib<3.0.0
-requests-oauthlib<1.2.0
-
 # Requirements due to sanic
 httpx==0.9.3
 sanic==19.12.2
