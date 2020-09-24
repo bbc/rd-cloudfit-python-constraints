@@ -23,3 +23,6 @@ s3transfer>=0.3.0,<0.4.0
 # Requirements due to sanic
 httpx==0.9.3
 sanic==19.12.2
+
+# yarl 1.6.0 does not unescape query strings like 1.5.1 does
+yarl<1.6.0
