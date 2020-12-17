@@ -31,3 +31,6 @@ yarl<1.6.0
 
 # Requirements due to python-dateutil 2.8.1 breaking other libraries (see https://github.com/boto/botocore/commit/e87e7a7)
 python-dateutil>=2.1,<2.8.1
+
+# Requirements due to aiohttp==3.7.3
+chardet<4.0,>=2.0
