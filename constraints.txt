@@ -25,6 +25,7 @@ s3transfer>=0.3.0,<0.4.0
 # Requirements due to sanic
 httpx==0.9.3
 sanic==19.12.2
+uvloop<0.15.0  # uvloop no longer supports Python 3.6 from v0.15.0
 
 # yarl 1.6.0 does not unescape query strings like 1.5.1 does
 yarl<1.6.0
